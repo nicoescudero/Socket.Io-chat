@@ -2,3 +2,15 @@ body{
     background-color: #333;
     color: lightskyblue;
 }
+
+.container{
+    display: flex;
+    flex-direction: row;
+}
+.chatWindow{
+    margin: auto;
+}
+.mail{
+    display: flex;
+    flex-direction: column;
+}

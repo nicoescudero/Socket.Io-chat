@@ -11,6 +11,19 @@
 
 <body>
     <h3>Socket.io</h3>
+    <div class="container">
+        <div class="mail">
+            <input type="text" id="username" placeholder="insert username">
+            <input type="text" id="message" placeholder="insert message">
+            <button type="submit" id="send">Send</button>
+        </div>
+        <div class="chatWindow">
+            <h5>Chat</h5>
+            <div id="output"></div>
+            <div id="actions"></div>
+        </div>
+    </div>
+
     <script src="/socket.io/socket.io.js"></script>
     <script src="./chat.js"></script>
 </body>
