@@ -9,7 +9,6 @@ app.set('port', process.env.PORT || 3000);
 app.use(express.static(path.join(__dirname, 'public')))
 
 //routes
-//app.get('/', (req, res) => res.send('Hi bro!'))
 const server = app.listen(app.get('port'), () => console.log(`Started server on port ${app.get('port')}`))
 
 //sockets
